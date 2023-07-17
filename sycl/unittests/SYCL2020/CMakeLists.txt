@@ -14,5 +14,8 @@ add_sycl_unittest(SYCL2020Tests OBJECT
   AtomicMemoryScopeCapabilities.cpp
   AtomicFenceCapabilities.cpp
   DeviceConfigFileAspects.cpp
+
+  DEPENDS
+  DeviceConfigFile
 )
 
